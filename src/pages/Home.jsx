@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import TrendingSection from '../components/TrendingSection';
 
 const EXAMPLES = [
   {
@@ -97,6 +98,9 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      {/* Trending */}
+      <TrendingSection />
 
       {/* How it works */}
       <section className="border-t border-white/[0.06] py-16 px-4">
